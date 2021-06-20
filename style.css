@@ -1,13 +1,13 @@
 body {
-  background: linear-gradient(to top right, rgb(115, 0, 138), rgb(119, 0, 255));
+  background: linear-gradient(145deg, white 5%, #123456);
   background-size: cover;
   background-attachment: fixed;
 }
 .container {
-  box-shadow: -5px -5px 10px rgb(0, 255, 255), 5px 5px 5px rgb(98, 153, 160);
+  box-shadow: 7px -3px 20px rgb(68, 156, 197);
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  background-color: rgba(16, 48, 82, 0.5);
+  background-color: #123456;
   color: white;
   scroll-behavior: auto;
   height: 70vh;
@@ -20,6 +20,7 @@ body {
 }
 #addJoke {
   width: 72vw;
+  height: 3rem;
   font-size: medium;
   background-color: cyan;
   outline: none;
@@ -43,7 +44,7 @@ body {
 }
 .title {
   font-family: "Montserrat", sans-serif;
-  color: rgb(0, 225, 255);
+  color: #123456;
   padding-top: 2rem;
   margin: auto;
   display: flex;

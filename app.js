@@ -7,7 +7,6 @@ function fetchData() {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
       listContainer.innerHTML += `<li class="list">${data.attachments[0].text}</li>`;
       clickSound.play();
     });
